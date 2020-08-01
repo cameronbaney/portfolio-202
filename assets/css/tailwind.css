@@ -9,6 +9,7 @@ html {
 h1 {
   @apply font-bold;
   @apply text-4xl;
+  @apply mb-12;
 }
 .nuxt-content h2 {
   @apply font-semibold;
@@ -27,6 +28,7 @@ a:focus {
 .page-uses ul {
   @apply mb-8;
 }
-.page-uses li {
+.page-uses li,
+.page-skills li {
   @apply mb-1;
 }
