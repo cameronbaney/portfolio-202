@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-800 text-gray-100">
+  <div class="container mx-auto max-w-4xl py-12 px-8">
     <site-header />
     <Nuxt />
   </div>
