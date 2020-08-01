@@ -21,3 +21,13 @@ a:hover,
 a:focus {
   @apply text-green-200;
 }
+.page-uses h2 {
+  @apply mb-2;
+}
+.page-uses ul {
+  @apply mb-8;
+  @apply ml-4;
+}
+.page-uses li {
+  @apply mb-1;
+}
