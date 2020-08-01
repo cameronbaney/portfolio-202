@@ -3,6 +3,7 @@
 ## Built With
 
 - [Nuxt](https://nuxtjs.org)
+- [Nuxt Content](https://content.nuxtjs.org)
 - [Tailwind](https://tailwindcss.com)
 - [Netlify](https://netlify.com)
 
