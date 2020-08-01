@@ -26,7 +26,6 @@ a:focus {
 }
 .page-uses ul {
   @apply mb-8;
-  @apply ml-4;
 }
 .page-uses li {
   @apply mb-1;
