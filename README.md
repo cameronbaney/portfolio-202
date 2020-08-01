@@ -1,4 +1,10 @@
-# app
+# Portfolio for Cameron Baney
+
+## Built With
+
+- [Nuxt](https://nuxtjs.org)
+- [Tailwind](https://tailwindcss.com)
+- [Netlify](https://netlify.com)
 
 ## Build Setup
 
