@@ -1,5 +1,5 @@
 <template>
-  <div class="site-header flex flex-row flex-col sm:flex-row sm:items-center py-6 sm:py-12">
+  <div class="site-header flex flex-row flex-col sm:flex-row sm:items-center py-6 sm:py-12 sm:mb-4">
 
     <nuxt-link class="text-white h-auto w-20 sm:mr-16 hover:opacity-75 focus:opacity-75 mb-4 sm:mb-0" to="/">
       <svg class="h-auto w-auto" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1590 1130" preserveAspectRatio="xMidYMid meet">

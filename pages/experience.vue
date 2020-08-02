@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-12">Experience</h1>
+    <h1>Experience</h1>
     <experience-card class="mb-24" v-for="item in experience" :key="item.company" :experience="item" />
   </div>
 </template>
