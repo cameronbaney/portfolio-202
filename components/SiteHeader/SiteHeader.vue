@@ -10,11 +10,11 @@
     </nuxt-link>
 
     <ul class="text-xl text-green-400 flex flex-col sm:flex-row sm:flex-1 sm:content-center sm:pt-5">
-      <li class="sm:ml-0 sm:mx-8"><nuxt-link to="experience">Experience</nuxt-link></li>
-      <li class="sm:mx-8"><nuxt-link to="education">Education</nuxt-link></li>
-      <li class="sm:mx-8"><nuxt-link to="interests">Interests</nuxt-link></li>
-      <li class="sm:mx-8"><nuxt-link to="skills">Skills</nuxt-link></li>
-      <li class="sm:mr-0 sm:mx-8"><nuxt-link to="uses">Uses</nuxt-link></li>
+      <li class="font-semibold sm:ml-0 sm:mx-8"><nuxt-link to="experience">Experience</nuxt-link></li>
+      <li class="font-semibold sm:mx-8"><nuxt-link to="education">Education</nuxt-link></li>
+      <li class="font-semibold sm:mx-8"><nuxt-link to="interests">Interests</nuxt-link></li>
+      <li class="font-semibold sm:mx-8"><nuxt-link to="skills">Skills</nuxt-link></li>
+      <li class="font-semibold sm:mr-0 sm:mx-8"><nuxt-link to="uses">Uses</nuxt-link></li>
     </ul>
   </div>
 </template>
