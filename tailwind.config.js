@@ -18,5 +18,8 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js'
     ]
+  },
+  variants: {
+    margin: ['first', 'last', 'responsive'],
   }
 }
