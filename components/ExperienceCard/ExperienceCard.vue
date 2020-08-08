@@ -2,8 +2,8 @@
   <div>
     <div class="flex flex-col sm:flex-row mb-6 sm:mb-0 justify-between">
       <div>
-        <h2 class="text-2xl font-bold mb-2">{{ experience.title }}</h2>
-        <h3 class="text-xl mb-4">{{ experience.company }}</h3>
+        <h3 class="mb-2">{{ experience.title }}</h3>
+        <h4>{{ experience.company }}</h4>
       </div>
       <span class="pt-2">{{ date }}</span>
     </div>
