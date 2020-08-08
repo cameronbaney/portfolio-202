@@ -14,6 +14,12 @@ export default {
     return {
       page
     }
+  },
+
+  head() {
+    return {
+      title: this.page.title
+    }
   }
 }
 </script>

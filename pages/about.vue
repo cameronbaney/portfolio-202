@@ -47,6 +47,12 @@ export default {
       education,
       experience
     }
+  },
+
+  head() {
+    return {
+      title: 'About'
+    }
   }
 }
 </script>
