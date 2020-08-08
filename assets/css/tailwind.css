@@ -48,3 +48,7 @@ a:focus,
   @apply mb-1;
 }
 
+.font-awesome-icon {
+  @apply h-full !important;
+  @apply w-full !important;
+}

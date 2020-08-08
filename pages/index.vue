@@ -6,7 +6,7 @@
     <ul class="flex flex-row">
       <li class="mx-4 sm:mx-6 first:ml-0 last:mr-0" v-for="item in social" :key="item.link">
         <a class="h-8 sm:h-12 w-8 sm:w-12 block" :href="item.link" :title="item.title">
-          <font-awesome-icon class="h-full w-full" fixed-width  :icon="['fab', item.icon]" />
+          <font-awesome-icon class="font-awesome-icon" :icon="['fab', item.icon]" />
         </a>
       </li>
     </ul>
