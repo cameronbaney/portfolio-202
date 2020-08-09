@@ -64,3 +64,7 @@ li {
 .page-blog h2 {
   @apply mt-12;
 }
+.page-bloh h2,
+.page-blog p {
+  @apply max-w-screen-md;
+}
