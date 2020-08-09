@@ -4,12 +4,12 @@ title: Tech Stack for My Portfolio and Blog
 
 ## TL;DR
 
-- **Framework**: [Nuxt](https://nuxtjs.org)
-  - [Static site generation](https://nuxtjs.org/guides/concepts/static-site-generation)
-  - Content created and maintained with [Nuxt Content](https://content.nuxtjs.org)
-- **Design/CSS**: [Tailwind](https://tailwindcss.com)
-- **Hosting and CI**: [Netlify](https://netlify.com)
-- **Source Control**: [GitHub](https://github.com/cameronbaney/portfolio-2020)
+- ⚙️ **Framework**: [Nuxt](https://nuxtjs.org)
+  - 🗂 [Static site generation](https://nuxtjs.org/guides/concepts/static-site-generation)
+  - 📄 Content created and maintained with [Nuxt Content](https://content.nuxtjs.org)
+- ✨ **Design/CSS**: [Tailwind](https://tailwindcss.com)
+- 🚀 **Hosting and CI**: [Netlify](https://netlify.com)
+- ⛓ **Source Control**: [GitHub](https://github.com/cameronbaney/portfolio-2020)
 
 ## Thought process
 
