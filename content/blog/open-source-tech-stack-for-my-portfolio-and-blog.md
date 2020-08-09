@@ -1,5 +1,5 @@
 ---
-title: Tech Stack for My Portfolio and Blog
+title: Open Source Tech Stack for My Portfolio and Blog
 description: Curious about how I created this site? Learn more about the tech stack, thought process around selecting everything, and how you can use it yourself.
 ---
 
