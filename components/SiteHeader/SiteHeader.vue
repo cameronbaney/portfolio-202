@@ -9,8 +9,8 @@
     </nuxt-link>
 
     <ul class="text-xl text-green-400 flex flex-row flex-1 content-center pt-3 sm:pt-5">
-      <li class="font-semibold mr-4 sm:mr-8"><nuxt-link to="about">About</nuxt-link></li>
-      <li class="font-semibold ml-4 sm:ml-8"><nuxt-link to="uses">Uses</nuxt-link></li>
+      <li class="font-semibold mr-4 sm:mr-8"><nuxt-link to="/about">About</nuxt-link></li>
+      <li class="font-semibold ml-4 sm:ml-8"><nuxt-link to="/uses">Uses</nuxt-link></li>
     </ul>
   </div>
 </template>
