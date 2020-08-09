@@ -1,5 +1,6 @@
 ---
 title: Tech Stack for My Portfolio and Blog
+description: Details about the tech stack for this site, the thought process around selecting everything, and how you can use it yourself.
 ---
 
 ## TL;DR

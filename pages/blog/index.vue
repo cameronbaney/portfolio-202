@@ -1,25 +1,44 @@
 <template>
-  <div :class="`page-${page.slug}`">
-    <h1>{{ page.title }}</h1>
-    {{ page.description }}
-    <nuxt-content :document="page" />
+  <div class="page-blog">
+    <h1>Blog</h1>
+
+    <blog-post
+      v-for="post in posts"
+      :key="post.slug"
+      :post="post"
+    />
   </div>
 </template>
 
 <script>
+import dayjs from 'dayjs'
+
 export default {
+  name: 'Blog',
+
   async asyncData({ $content, params }) {
-    const page = await $content(params.slug).fetch()
+    const posts = await $content(`blog`)
+      .only(['title', 'description', 'createdAt', 'slug', 'path'])
+      .fetch()
 
     return {
-      page
+      posts
     }
   },
 
   head() {
     return {
-      title: this.page.title
+      title: 'Blog'
     }
+  },
+
+  methods: {
+    /**
+     * Compute date published
+     * @returns {String}
+     */
+    // datePublished: function(date) {
+    // }
   }
 }
 </script>
