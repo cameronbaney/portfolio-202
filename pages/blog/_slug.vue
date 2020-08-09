@@ -25,7 +25,44 @@ export default {
 
   head() {
     return {
-      title: this.page.title
+      title: this.page.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.page.title
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'article'
+        },
+        {
+          hid: 'og:url',
+          name: 'og:url',
+          content: `https://cameronbaney.dev${this.page.path}`
+        },
+        {
+          hid: 'og:site_name',
+          name: 'og:site_name',
+          content: `Cameron Baney - Front-end Engineer`
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          hid: 'twitter:creator',
+          name: 'twitter:creator',
+          content: '@cameronbaney'
+        },
+        {
+          hid: 'twitter:site',
+          name: 'twitter:site',
+          content: '@cameronbaney'
+        }
+      ]
     }
   },
 
