@@ -1,15 +1,22 @@
 <template>
-  <div :class="`page-${page.slug}`">
-    <h1>{{ page.title }}</h1>
-    {{ page.description }}
+  <div :class="`page-blog page-${page.slug}`">
+    <div class="mb-16">
+      <h1 class="mb-2">{{ page.title }}</h1>
+      <time :datetime="page.createdAt">{{ datePublished }}</time>
+    </div>
+
     <nuxt-content :document="page" />
   </div>
 </template>
 
 <script>
+import dayjs from 'dayjs'
+
 export default {
+  name: 'BlogPost',
+
   async asyncData({ $content, params }) {
-    const page = await $content(params.slug).fetch()
+    const page = await $content(`blog/${params.slug}` || 'index').fetch()
 
     return {
       page
@@ -19,6 +26,16 @@ export default {
   head() {
     return {
       title: this.page.title
+    }
+  },
+
+  computed: {
+    /**
+     * Compute date published
+     * @returns {String}
+     */
+    datePublished: function() {
+      return dayjs(this.page.createdAt).format('MMMM D, YYYY')
     }
   }
 }
