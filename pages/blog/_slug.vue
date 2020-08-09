@@ -38,6 +38,11 @@ export default {
           content: 'article'
         },
         {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.page.description
+        },
+        {
           hid: 'og:url',
           name: 'og:url',
           content: `https://cameronbaney.dev${this.page.path}`
