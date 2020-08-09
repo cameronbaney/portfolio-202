@@ -29,7 +29,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '/favicon.svg'
+        content: 'https://cameronbaney.dev/favicon.svg'
       },
     ],
     link: [
