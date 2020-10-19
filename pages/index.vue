@@ -31,7 +31,7 @@ export default {
           title: 'GitHub'
         },
         {
-          link: 'https://github.com/cbaney',
+          link: 'https://gitlab.com/cbaney',
           icon: 'gitlab',
           title: 'Gitlab'
         },
