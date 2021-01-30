@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="flex flex-col sm:flex-row mb-6 sm:mb-0 justify-between">
+    <div class="mb-6 sm:mb-0">
       <div>
-        <h3 class="mb-2">{{ experience.title }}</h3>
-        <h4>{{ experience.company }}</h4>
+        <h3>{{ experience.company }}</h3>
+        <div class="mb-4">
+        <p class="mb-2 italic" v-for="position in experience.positions" :key="position.title">{{ position.title }} | {{ dateRange(position.dateStarted, position.dateEnded) }}</p>
+        </div>
       </div>
-      <span class="pt-2">{{ date }}</span>
     </div>
-    <p class="max-w-2xl">{{ experience.description}}</p>
+    <p>{{ experience.description}}</p>
   </div>
 </template>
 
@@ -26,25 +27,28 @@ export default {
           company: '',
           description: '',
           dateStarted: '',
-          dateEnded: ''
+          dateEnded: '',
+          positions: []
         }
       }
     }
   },
 
-  computed: {
+  methods: {
     /**
-     * Compute date employeed
+     * Compute date range
+     * @params {String} dateStarted
+     * @params {String} dateEnded
      * @returns {String}
      */
-    date: function() {
-      const startDate = dayjs(this.experience.dateStarted).format('MMMM YYYY')
+    dateRange(dateStarted, dateEnded) {
+      const startDate = dayjs(dateStarted).format('MMMM YYYY')
 
-      const dateEnded = this.experience.dateEnded
-        ? dayjs(this.experience.dateEnded).format('MMMM YYYY')
+      const endDate = dateEnded
+        ? dayjs(dateEnded).format('MMMM YYYY')
         : 'Present'
 
-        return `${startDate} - ${dateEnded}`
+        return `${startDate} - ${endDate}`
     }
   }
 }

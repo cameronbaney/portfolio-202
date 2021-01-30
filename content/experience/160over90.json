@@ -1,7 +1,13 @@
 {
-  "title": "Lead Developer",
   "company": "160over90",
   "description": "Worked with creative directors, developers, and designers to create websites and interactive experiences for a variety of clients including universities and professional sports teams. Deliverables range from full WordPress websites to front-end systems.",
   "dateStarted": "2013-06",
-  "dateEnded": "2016-05"
+  "dateEnded": "2016-05",
+  "positions": [
+    {
+      "title": "Leader Developer",
+      "dateStarted": "2013-06",
+      "dateEnded": "2016-05"
+    }
+  ]
 }

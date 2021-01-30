@@ -1,7 +1,23 @@
 {
-  "title": "Lead Engineer",
   "company": "Blackfynn",
-  "description": "Created a Vue app from the ground up to allow neuroscience researchers to manage their data. Features include: File upload system, file management, model relationship management, collaboration tools, advanced search with filters, autocomplete and suggestions\n Developed software using JavaScript, CSS, and Vue. Created and reinforced engineering processes, standards and systems.\n Created a component library alongside designers that is used across multiple applications.\n Helped lead sprints, grooming meetings and daily standups. Worked with product managers to set priorities and sprints.",
+  "description": "Employee number three, created a Vue app from the ground up to allow neuroscience researchers to manage their data. Features include: File upload system, file management, model relationship management, collaboration tools, advanced search with filters, autocomplete and suggestions\n Developed software using JavaScript, CSS, and Vue. Created and reinforced engineering processes, standards and systems.\n Created a component library alongside designers that is used across multiple applications.\n Helped lead sprints, grooming meetings and daily standups. Worked with product managers to set priorities and sprints.",
   "dateStarted": "2016-05",
-  "dateEnded": ""
+  "dateEnded": "",
+  "positions": [
+    {
+      "title": "Lead Engineer",
+      "dateStarted": "2020-01",
+      "dateEnded": ""
+    },
+    {
+      "title": "Sr Frontend Engineer",
+      "dateStarted": "2018-06",
+      "dateEnded": "2020-01"
+    },
+    {
+      "title": "Frontend Engineer",
+      "dateStarted": "2016-05",
+      "dateEnded": "2018-06"
+    }
+  ]
 }

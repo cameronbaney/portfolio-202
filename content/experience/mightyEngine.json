@@ -3,5 +3,17 @@
   "company": "Mighty Engine",
   "description": "Worked with developers, and designers to create WordPress websites for a variety of clients including non-profits, city organizations, and lawyers.",
   "dateStarted": "2012-05",
-  "dateEnded": "2013-06"
+  "dateEnded": "2013-06",
+  "positions": [
+    {
+      "title": "Interactive Director",
+      "dateStarted": "2012-08",
+      "dateEnded": "2013-06"
+    },
+    {
+      "title": "Web Developer",
+      "dateStarted": "2012-05",
+      "dateEnded": "2012-08"
+    }
+  ]
 }
