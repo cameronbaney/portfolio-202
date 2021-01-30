@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-    <p>{{ experience.description}}</p>
+    <nuxt-content :document="experience" />
   </div>
 </template>
 
