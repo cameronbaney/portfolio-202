@@ -12,36 +12,41 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import Vue, { PropOptions } from 'vue'
+
 import dayjs from 'dayjs'
 
-export default {
+interface Position {
+  title: string,
+  dateStarted: string,
+  dateEnded: string
+}
+
+interface Experience {
+  title: string,
+  company: string,
+  description: string,
+  dateStarted: string,
+  dateEnded: string,
+  positions: Array<Position>
+}
+
+export default Vue.extend({
   name: 'ExperienceCard',
 
   props: {
     experience: {
       type: Object,
-      default: () => {
-        return {
-          title: '',
-          company: '',
-          description: '',
-          dateStarted: '',
-          dateEnded: '',
-          positions: []
-        }
-      }
-    }
+      required: true
+    } as PropOptions<Experience>
   },
 
   methods: {
     /**
      * Compute date range
-     * @params {String} dateStarted
-     * @params {String} dateEnded
-     * @returns {String}
      */
-    dateRange(dateStarted, dateEnded) {
+    dateRange(dateStarted: string, dateEnded: string): string {
       const startDate = dayjs(dateStarted).format('MMMM YYYY')
 
       const endDate = dateEnded
@@ -51,7 +56,7 @@ export default {
         return `${startDate} - ${endDate}`
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>
