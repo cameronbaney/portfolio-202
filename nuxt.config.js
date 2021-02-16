@@ -91,15 +91,7 @@ export default {
   ** Content module configuration
   ** See https://content.nuxtjs.org/configuration
   */
- hooks: {
-    'content:file:beforeInsert': async (document, database) => {
-      if ((document.extension === '.json') && document.body) {
-        const data = await database.markdown.toJSON(document.body);
-
-        Object.assign(document, data);
-      }
-    }
-  },
+  hooks: {},
   content: {},
   /*
   ** Build configuration

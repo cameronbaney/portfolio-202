@@ -1,7 +1,9 @@
 {
   "title": "Interactive Director",
   "company": "Mighty Engine",
-  "body": "Worked with developers, and designers to create WordPress websites for a variety of clients including non-profits, city organizations, and lawyers.",
+  "bullets": [
+    "Developed WordPress websites and content management systems for a variety of clients including non-profits, city organizations, and lawyers."
+  ],
   "dateStarted": "2012-05",
   "dateEnded": "2013-06",
   "positions": [

@@ -1,6 +1,9 @@
 {
   "company": "Saforian",
-  "body": "Worked with backend developers, and designers to create the front-end for Drupal websites.",
+  "bullets": [
+    "Worked with backend developers, and designers to create the front-end for Drupal websites.",
+    "Developed a microsite for No Kid Hungry that allowed users to create a design by drawing on a virtual brown lunch bag for a campaign and fundraiser."
+  ],
   "dateStarted": "2010-02",
   "dateEnded": "2012-05",
   "positions": [

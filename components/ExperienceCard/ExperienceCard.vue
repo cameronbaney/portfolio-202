@@ -8,7 +8,15 @@
         </div>
       </div>
     </div>
-    <nuxt-content :document="experience" />
+    <ul>
+      <li
+        v-for="bullet in experience.bullets"
+        :key="bullet"
+      >
+        {{ bullet }}
+      </li>
+    </ul>
+
   </div>
 </template>
 

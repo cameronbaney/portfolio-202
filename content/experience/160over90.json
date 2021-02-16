@@ -1,6 +1,9 @@
 {
   "company": "160over90",
-  "body": "Worked with creative directors, developers, and designers to create websites and interactive experiences for a variety of clients including universities and professional sports teams. Deliverables range from full WordPress websites to front-end systems.",
+  "bullets": [
+    "Created websites and interactive experiences for a variety of clients including professional sports teams and universities, such as Philadelphia Eagles, University of Florida, and UCLA",
+    "Deliverables range from full WordPress websites to front-end systems."
+  ],
   "dateStarted": "2013-06",
   "dateEnded": "2016-05",
   "positions": [

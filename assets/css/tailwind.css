@@ -52,6 +52,12 @@ a:focus,
 li {
   @apply mb-1;
 }
+.page-about ul {
+  @apply list-outside list-disc ml-5
+}
+.page-about li  {
+  @apply mb-2;
+}
 
 .page-blog ul {
   @apply mb-8;

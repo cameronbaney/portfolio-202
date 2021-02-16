@@ -1,6 +1,13 @@
 {
   "company": "Blackfynn",
-  "body": "Employee number three, created a Vue app from the ground up to allow neuroscience researchers to manage and publish their data. Features include: File upload system, file management, model relationship management, collaboration tools, advanced search with filters, autocomplete and suggestions. \n\n Created and reinforced engineering processes, standards and systems. \n\n Created a component library alongside designers that is used across multiple applications. \n\n Lead sprints, grooming meetings and daily standups. Worked with product managers to set priorities and sprints. \n\n Set up processes for my team to work asynchronously at the start of working remote during COVID-19.",
+  "bullets": [
+    "Developed UX/UI features, standards, and components which directly led to securing a strategic partnership with the NIH (National Institutes of Health)",
+    "Led the frontend migration strategy for a legacy Polymer application to a modern VueJS app resulting in a 50% increase in development efficiency and testability of new features.",
+    "Learned NuxtJS to build a mission-critical data publishing application that optimized SEO and rendered pages in two seconds or less.",
+    "Initiated an asynchronous process for the data management team to optimize productivity and to ensure that sprint commitments are consistently met while working remotely during COVID.",
+    "Volunteered as a scrum master for the data management engineering team leading all agile team norms including stand ups. lessons learned, sprint retros, grooming and planning.",
+    "Led creation of an internally shared frontend component library increasing developer throughput by 30% as this work is leveraged across multiple digital properties."
+  ],
   "dateStarted": "2016-05",
   "dateEnded": "",
   "positions": [

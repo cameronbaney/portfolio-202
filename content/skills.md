@@ -2,21 +2,24 @@
 title: Skills
 ---
 
-- JavaScript
-- Accessible coding following WCAG
+- JavaScript/TypeScript
+- Ramda
 - Vue
-- Nuxt
+- NuxtJS
 - React
 - GraphQL
 - JAMstack
+- Tailwind
+- Storybook
+- CI with Jenkins, GitHub Actions
+- Serverless functions (Vercel, Netlify, AWS Lambda)
 - Unit testing with Jest
 - E2E testing with Cypress
-- Webpack/Gulp/Grunt
-- Responsive design
+- Webpack
 - Version control (Git, SVN)
-- CI with Jenkins, GitHub Actions
 - Progressive enhancement
 - Web standard HTML
+- Accessibility best practices
 - CSS/Sass/PostCSS
-- Tailwind
+- Responsive design
 
