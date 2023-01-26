@@ -37,7 +37,7 @@ export default {
           title: 'Gitlab'
         },
         {
-          link: 'https://linkedin.com/in',
+          link: 'https://www.linkedin.com/in/cameronbaney',
           icon: 'linkedin',
           title: 'LinkedIn'
         },
