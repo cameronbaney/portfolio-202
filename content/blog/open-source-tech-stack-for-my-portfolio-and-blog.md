@@ -48,6 +48,6 @@ A lot of these themes that I came across were pretty complex, and didn't necessa
 
 ## Let me hear it
 
-If you use this repo to make a site of your own, I'd love to see what you did. Even if you have some questions or feedback, let me know on [https://twitter.com/cameronbaney](Twitter).
+If you use this repo to make a site of your own, I'd love to see what you did. Even if you have some questions or feedback, let me know on [Twitter](https://twitter.com/cameronbaney).
 
 Cheers!
