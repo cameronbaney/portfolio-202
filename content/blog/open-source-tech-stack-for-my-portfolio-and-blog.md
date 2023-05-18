@@ -38,7 +38,7 @@ This is another area that I have overcomplicated for myself in the past. There a
 
 Deciding on continuous integration and hosting was a no-brain. I already had my [repo on GitHub](https://github.com/cameronbaney/portfolio-2020), so I just needed to connect [Netlify](https://www.netlify.com/) to that. Netlify provides "The basics for personal projects, hobby sites, or experiments" for free. This includes a lot of advanced features like automated builds, deploying, site previews and hosting.
 
-I'm pretty much using the default setup, with the exception of a custom build command `yarn generate`, which is simple to setup in Netlify. Every time code gets merged into `main`, Netlify will automatically build it using my custom command and deploy it to [https://cameronbaney.dev](cameronbaney.dev).
+I'm pretty much using the default setup, with the exception of a custom build command `yarn generate`, which is simple to setup in Netlify. Every time code gets merged into `main`, Netlify will automatically build it using my custom command and deploy it to [cameronbaney.dev](https://cameronbaney.dev).
 
 ## Open source and develop in the open
 
