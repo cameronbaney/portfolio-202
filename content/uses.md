@@ -7,14 +7,13 @@ title: Uses
 - **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Terminal**: [iTerm2](https://iterm2.com/)
 - **Shell**: [Zsh](https://ohmyz.sh/)
-- **Color scheme/editor theme**: [Tomorrow Night Eighties](https://github.com/chriskempson/tomorrow-theme#tomorrow-night-eighties)
+- **Color scheme/editor theme**: [Aura Theme](https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme)
 - **Font**: [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 ## Desktop Apps
 
 - **Note-taking/organization**: [Notion](https://www.notion.so/)
-- **Clipboard manager**: [Flycut](https://github.com/TermiT/Flycut)
-- **Productivty**: [Alfred](https://www.alfredapp.com/)
+- **Productivty**: [Raycast](https://www.raycast.com/)
 
 ## Hardware + Desk
 
