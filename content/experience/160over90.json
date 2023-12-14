@@ -1,14 +1,15 @@
 {
   "company": "160over90",
   "bullets": [
-    "Created websites and interactive experiences for a variety of clients including professional sports teams and universities, such as Philadelphia Eagles, University of Florida, and UCLA",
-    "Deliverables range from full WordPress websites to front-end systems."
+    "Developed websites and interactive experiences using HTML, CSS, JavaScript and WordPress for high-profile clients including professional sports teams and universities, such as Philadelphia Eagles, Notre Dame, University of Florida, and UCLA.",
+    "Led development of WordPress websites and frontend systems, leveraging expertise in JavaScript, CSS, and HTML to deliver dynamic and engaging online experiences."
+
   ],
   "dateStarted": "2013-06",
   "dateEnded": "2016-05",
   "positions": [
     {
-      "title": "Leader Developer",
+      "title": "Lead Developer",
       "dateStarted": "2013-06",
       "dateEnded": "2016-05"
     }
