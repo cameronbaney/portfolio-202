@@ -2,24 +2,9 @@
 title: Skills
 ---
 
-- JavaScript/TypeScript
-- Ramda
-- Vue
-- NuxtJS
-- React
-- GraphQL
-- JAMstack
-- Tailwind
-- Storybook
-- CI with Jenkins, GitHub Actions
-- Serverless functions (Vercel, Netlify, AWS Lambda)
-- Unit testing with Jest
-- E2E testing with Cypress
-- Webpack
-- Version control (Git, SVN)
-- Progressive enhancement
-- Web standard HTML
-- Accessibility best practices
-- CSS/Sass/PostCSS
-- Responsive design
+- Frontend Technologies: JavaScript/TypeScript, React, Vue, Nuxt, HTML/CSS/Sass/PostCSS
+- Development Tools: Vite/Webpack, Git/SVN, Storybook, CI with Buildkite/Jenkins/GitHub Actions
+- Testing and Optimization: Unit testing with Jest, E2E testing with Cypress/Playwright
+- Serverless and JAMstack: Serverless functions (Vercel/Netlify/AWS Lambda), JAMstack
+- Other Skills: GraphQL, Ramda, Tailwind CSS, Accessibility best practices
 
