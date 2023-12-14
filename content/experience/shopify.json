@@ -1,7 +1,14 @@
 {
   "company": "Shopify",
   "bullets": [
-    "Developer on the Messaging team"
+    "Steered cross-functional team projects, working with designers and backend developers, to successfully launch and continuously develop Shopify Inbox, an innovative messaging platform using React, GraphQL, and Redux; achieved 297% monthly active user growth over two years.",
+    "Led a transformative frontend initiative using React and GraphQL, overcoming complex UI challenges, resulting in a 90% surge in user engagement for a key feature.",
+    "Pioneered the integration of an AI feature utilizing ChatGPT, positioning our team at the forefront of innovation and resulting in a substantial increase in user engagement with the feature.",
+    "Proposed and then led the design and implementation of color contrast accessibility enhancements using TypeScript to streamline merchant color selection, improving user experience for 130k+ merchants.",
+    "Transformed Shopify Inbox analytics into a real-time dashboard using React and GraphQL, pioneering the use of internal reporting frameworks and charting libraries, a first within the teams.",
+    "Assumed service ownership of the Shopify Inbox widget codebase during the critical Black Friday/Cyber Monday period, ensuring SLOs were consistently met, maintaining 99.99% uptime.",
+    "Demonstrated leadership by spearheading a multi-team rewrite of a checkout and storefront preview component/library and implementing end-to-end testing with Playwright within six months of joining the checkout team.",
+    "Implemented end-to-end tests for Checkout Editor using Playwright, catching two major code regressions within the first weeks of use. Established advanced testing patterns with Jest, enhancing team's development efficiency."
   ],
   "dateStarted": "2021-06",
   "dateEnded": "",
