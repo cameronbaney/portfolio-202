@@ -19,8 +19,8 @@ title: Uses
 
 - **Desk**: [Autonomous SmartDesk 2 - Home Office](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
 - **Laptop**: [Macbook Air (M1)](https://www.apple.com/macbook-air/)
-- **Keyboard**: [Keychron K2](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard)
-- **Mouse**: [Logitech Wireless Marathon Mouse M705](https://www.logitech.com/en-us/product/m705)
+- **Keyboard**: [Keychron Q11](https://www.keychron.com/products/keychron-q11-qmk-custom-mechanical-keyboard?_pos=1&_psq=q11&_ss=e&_v=1.0)
+- **Mouse**: [Logitech MX Master 3S](https://www.logitech.com/en-us/products/mice/mx-master-3s.910-006557.html)
 - **Headset**: [Logitech PRO X](https://www.logitechg.com/en-us/products/gaming-audio/pro-x-gaming-headset-blue-voice-mic-tech.981-000817.html)
 - **Webcam**: [Logitech Brio](https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html)
 - **Mousepad**: [QCK Edge](https://steelseries.com/gaming-mousepads/qck-edge-series#qck-edge-large)
