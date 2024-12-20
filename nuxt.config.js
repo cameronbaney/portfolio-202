@@ -1,11 +1,10 @@
-import { defineNuxtConfig } from 'nuxt/config'
 
-export default defineNuxtConfig({
+export default {
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  ssr: true,
+  mode: 'universal',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -68,8 +67,20 @@ export default defineNuxtConfig({
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/tailwindcss',
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    ['nuxt-fontawesome', {
+      imports: [
+        //import whole set
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faTwitter', 'faGitlab', 'faGithub', 'faLinkedin', 'faCodepen']
+        }
+      ]
+    }]
   ],
   /*
   ** Axios module configuration
@@ -81,26 +92,11 @@ export default defineNuxtConfig({
   ** See https://content.nuxtjs.org/configuration
   */
   hooks: {},
-  content: {
-    // Add any specific content configuration if needed
-  },
+  content: {},
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-    postcss: {
-      plugins: {
-        'postcss-nesting': {},
-        tailwindcss: {},
-        autoprefixer: {}
-      }
-    }
-  },
-  /*
-  ** Add this for HTTP functionality (replaces axios)
-  */
-  nitro: {
-    preset: 'static'
   }
-})
+}

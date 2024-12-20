@@ -1,40 +1,70 @@
 <template>
-  <div class="experience-card">
-    <h3 class="title">{{ title }}</h3>
-    <p class="company">{{ company }}</p>
-    <p class="dates">
-      {{ formatDate(startDate) }} - {{ endDate ? formatDate(endDate) : 'Present' }}
-    </p>
-    <ul class="description">
-      <li v-for="(item, index) in description" :key="index">
-        {{ item }}
+  <div>
+    <div class="mb-6 sm:mb-0">
+      <div>
+        <h3>{{ experience.company }}</h3>
+        <div class="mb-4">
+        <p class="mb-2 italic" v-for="position in experience.positions" :key="position.title">{{ position.title }} | {{ dateRange(position.dateStarted, position.dateEnded) }}</p>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li
+        v-for="bullet in experience.bullets"
+        :key="bullet"
+      >
+        {{ bullet }}
       </li>
     </ul>
-    <div class="technologies">
-      <span v-for="tech in technologies" :key="tech" class="technology">
-        {{ tech }}
-      </span>
-    </div>
+
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import Vue, { PropOptions } from 'vue'
+
 import dayjs from 'dayjs'
 
-interface Props {
-  title: string
-  company: string
-  startDate: string
-  endDate?: string
-  description: string[]
-  technologies: string[]
+interface Position {
+  title: string,
+  dateStarted: string,
+  dateEnded: string
 }
 
-defineProps<Props>()
-
-const formatDate = (date: string) => {
-  return dayjs(date).format('MMM YYYY')
+interface Experience {
+  title: string,
+  company: string,
+  description: string,
+  dateStarted: string,
+  dateEnded: string,
+  positions: Array<Position>
 }
+
+export default Vue.extend({
+  name: 'ExperienceCard',
+
+  props: {
+    experience: {
+      type: Object,
+      required: true
+    } as PropOptions<Experience>
+  },
+
+  methods: {
+    /**
+     * Compute date range
+     */
+    dateRange(dateStarted: string, dateEnded: string): string {
+      const startDate = dayjs(dateStarted).format('MMMM YYYY')
+
+      const endDate = dateEnded
+        ? dayjs(dateEnded).format('MMMM YYYY')
+        : 'Present'
+
+        return `${startDate} - ${endDate}`
+    }
+  }
+})
 </script>
 
 <style lang="scss" scoped>

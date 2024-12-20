@@ -5,19 +5,25 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  content: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}'
-  ],
-  darkMode: 'class',
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Open Sans', 'sans-serif']
+    }
+  },
+  variants: {},
+  plugins: [],
+  purge: {
+    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js'
+    ]
   },
   variants: {
-    extend: {},
-  },
-  plugins: [],
+    margin: ['first', 'last', 'responsive'],
+  }
 }
