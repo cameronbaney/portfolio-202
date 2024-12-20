@@ -4,7 +4,7 @@ title: Uses
 
 ## Editor + Terminal
 
-- **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
+- **Editor**: [Cursor](https://www.cursor.com/)
 - **Terminal**: [iTerm2](https://iterm2.com/)
 - **Shell**: [Zsh](https://ohmyz.sh/)
 - **Color scheme/editor theme**: [Tomorrow Night Eighties](https://github.com/chriskempson/tomorrow-theme#tomorrow-night-eighties)
