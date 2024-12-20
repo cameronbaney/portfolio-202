@@ -1,30 +1,20 @@
 {
   "company": "Blackfynn",
   "bullets": [
-    "Developed UX/UI features, standards, and components which directly led to securing a strategic partnership with the NIH (National Institutes of Health)",
-    "Led the frontend migration strategy for a legacy Polymer application to a modern VueJS app resulting in a 50% increase in development efficiency and testability of new features.",
-    "Learned NuxtJS to build a mission-critical data publishing application that optimized SEO and rendered pages in two seconds or less.",
-    "Initiated an asynchronous process for the data management team to optimize productivity and to ensure that sprint commitments are consistently met while working remotely during COVID.",
-    "Volunteered as a scrum master for the data management engineering team leading all agile team norms including stand ups. lessons learned, sprint retros, grooming and planning.",
-    "Led creation of an internally shared frontend component library increasing developer throughput by 30% as this work is leveraged across multiple digital properties."
+    "Engineered UX/UI features using React and Redux for a large-scale web application, leading to a strategic partnership with National Institutes of Health.",
+    "Led the migration from legacy Polymer to Vue for a large-scale application, increasing development efficiency by 50% and improving feature testability. My strategic approach allowed developers to use both legacy components while developing new components in Vue. Post-migration, we gradually transitioned the old components, optimizing our timeline and expediting the release of the new codebase.",
+    "Mastered Nuxt to develop a high-impact publishing application that optimized SEO and rendered pages in two seconds or less.",
+    "Initiated an asynchronous process for my team to optimize productivity and to ensure that sprint commitments are consistently met while working remotely during COVID.",
+    "Led Agile practices as volunteer Scrum Master for the data management team, improving sprint completion rate by 20% and enhancing team collaboration.",
+    "Spearheaded development of an internal React-based frontend component library, overcoming integration hurdles, boosting developer productivity by 30% across multiple projects."
   ],
   "dateStarted": "2016-05",
   "dateEnded": "2021-05",
   "positions": [
     {
       "title": "Lead Engineer",
-      "dateStarted": "2020-01",
-      "dateEnded": "2021-05"
-    },
-    {
-      "title": "Sr Frontend Engineer",
-      "dateStarted": "2018-06",
-      "dateEnded": "2020-01"
-    },
-    {
-      "title": "Frontend Engineer",
       "dateStarted": "2016-05",
-      "dateEnded": "2018-06"
+      "dateEnded": "2021-05"
     }
   ]
 }
